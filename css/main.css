@@ -1,0 +1,106 @@
+body {
+    background: #34495e;
+}
+.form-list {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+}
+.add-action {
+    background-color: #fff;
+    width: max-content;
+    padding: 30px;
+    margin: 0 auto;
+    margin-bottom: 35px !important;
+    border-radius: 5px;
+    border: solid 1px #7d7e80;
+    max-width: 500px;
+}
+.add-action .tasks-input {
+    width: 437px;
+    border: solid 1px #cbcccd;
+    border-radius: 4px;
+    padding: 9px 15px;
+    height: 20px;
+}
+.add-action .tasks-input:focus {
+    outline: none;
+}
+.add-action .tasks-submit {
+    background-color: #54a0ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+}
+.ml {
+    margin-left: 5px;
+}
+.d-flex {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.show-section {
+    background-color: #fff;
+    width: max-content;
+    padding: 20px 15px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: solid 1px #7d7e80;
+    width: 500px;
+    height: max-content;
+}
+.item {
+    padding: 3px;
+    border: 1px solid #9d9999;
+    border-radius: 5px;
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 5px;
+}
+.item  input {
+    background-color: red !important;
+
+}
+.item p {
+    margin-top: 0;
+}
+.item span {
+    margin: auto;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 20px;float: right;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+.item span:hover {
+    color: #fff;
+    background-color: #dcdde1;
+    font-size: 24px;
+    border-radius: 50%;
+}
+.item span a {
+    text-decoration: none;
+    color: black;
+}
+.item span a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.show-section img {
+    width: 300px;
+}
+.checked {
+    text-decoration: line-through;
+    color: #dcdde1;
+}
